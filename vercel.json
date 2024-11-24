@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "routes": [
+    {
+      "src": "/api/clinic1",
+      "dest": "/api.js"
+    },
+    {
+      "src": "/api/clinic2",
+      "dest": "/api.js"
+    },
+    {
+      "handle": "filesystem"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ]
+}
